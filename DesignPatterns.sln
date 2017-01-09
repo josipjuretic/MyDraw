@@ -3,7 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Model", "Model\Model.shproj", "{42494570-1A69-431E-A9AC-EE2BCDC9AA74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDraw", "MyDraw\MyDraw.csproj", "{5AA5ADA9-6271-4A27-B3D0-B5402B18A6A2}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Controller", "Controller\Controller.shproj", "{8F262E68-F6B3-4B8E-B479-5302E67FFF1D}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Model\Model.projitems*{42494570-1a69-431e-a9ac-ee2bcdc9aa74}*SharedItemsImports = 13
+		Controller\Controller.projitems*{5aa5ada9-6271-4a27-b3d0-b5402b18a6a2}*SharedItemsImports = 4
+		Model\Model.projitems*{5aa5ada9-6271-4a27-b3d0-b5402b18a6a2}*SharedItemsImports = 4
+		Controller\Controller.projitems*{8f262e68-f6b3-4b8e-b479-5302e67fff1d}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AA5ADA9-6271-4A27-B3D0-B5402B18A6A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA5ADA9-6271-4A27-B3D0-B5402B18A6A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA5ADA9-6271-4A27-B3D0-B5402B18A6A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA5ADA9-6271-4A27-B3D0-B5402B18A6A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
